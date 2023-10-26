@@ -8,8 +8,6 @@
 <br/>
 <label class="control-label" for="keyDescriptions">Les descriptions des clés à afficher séparées par des ';'</label>
 	<input type="text" name="keyDescriptions" class="ccm-input-text" value="<?php echo $keyDescriptions; ?>" />
-	<label class="control-label" for="keyDescriptions">Les descriptions des clés à afficher séparées par des ';'</label>
-	<input type="text" name="keyDescriptions" class="ccm-input-text" value="<?php echo $keyDescriptions; ?>" />
 	<label class="control-label" for="nbMaxPerRow">Nombre de Key Numbers maximum par ligne d'affichage</label>
 	<input type="text" name="nbMaxPerRow" class="ccm-input-text" value="<?php echo $nbMaxPerRow; ?>" />
 	
