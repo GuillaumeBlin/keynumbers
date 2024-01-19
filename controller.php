@@ -1,6 +1,5 @@
 <?php
 
-declare(strict_types=1);
 
 namespace Application\Block\KeyNumbers;
 
@@ -20,12 +19,12 @@ class Controller extends BlockController
     protected $btInterfaceHeight = "240";
     protected $btDefaultSet = 'basic';
     
-    public function getBlockTypeName(): string
+    public function getBlockTypeName()
     {
         return 'Key Numbers';
     }
 
-    public function getBlockTypeDescription(): string
+    public function getBlockTypeDescription()
     {
         return t('A simple block displaying key numbers informations');
     }
@@ -40,7 +39,7 @@ class Controller extends BlockController
         return $error;
     }
 
-    public function save($args): void
+    public function save($args)
     {
         parent::save($args);
     }

@@ -1,4 +1,8 @@
 <?php defined('C5_EXECUTE') or die(_("Access Denied."));
+if(empty($keyValues)) $keyValues='';
+if(empty($keyDescriptions)) $keyDescriptions='';
+if(empty($nbMaxPerRow)) $nbMaxPerRow='4';
+
 ?>
 
 
