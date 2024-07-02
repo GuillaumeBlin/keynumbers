@@ -17,8 +17,8 @@ for($i=0;$i<$nbKN;$i++){
 ?>
     <li>
       <div class="home-key-numbers-item">
-        <strong class="home-key-numbers-item-number countup countup-block" data-value="<?php echo $arrayValues[$i]?>"><?php echo $arrayValues[$i]?></strong>
-        <p class="home-key-numbers-item-title"><?php echo $arrayDescriptions[$i]?></p>
+        <strong class="home-key-numbers-item-number countup countup-block" data-value="<?php if(isset($arrayValues[$i])){echo $arrayValues[$i]}?>"><?php if(isset($arrayValues[$i])){echo $arrayValues[$i]}?></strong>
+        <p class="home-key-numbers-item-title"><?php if(isset($arrayDescriptions[$i])){echo $arrayDescriptions[$i]}?></p>
         <p class="home-key-numbers-item-subtitle"></p>
       </div>
     </li>
